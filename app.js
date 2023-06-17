@@ -102,6 +102,7 @@ const handleReport = async (sites) => {
   console.log("instanceNumber::", instanceNumber);
   console.log("loadPerInstance::", loadPerInstance);
   console.log("rangeStart::", rangeStart);
+  console.log("rangeEnd::", rangeEnd);
   console.log("sites::", sites.length);
   const { wordCount, errorSites } = await handleReport(
     sites.slice(rangeStart, rangeEnd)
